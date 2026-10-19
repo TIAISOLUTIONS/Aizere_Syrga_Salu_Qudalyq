@@ -21,7 +21,7 @@ if('IntersectionObserver'in window&&!matchMedia('(prefers-reduced-motion: reduce
  document.querySelectorAll('.reveal').forEach(el=>ob.observe(el));document.documentElement.classList.add('js-reveal');
 }
 $('copy-address').addEventListener('click',async()=>{
- const address='Жаркент қаласы, Жібек Жолы көшесі, 137А. «Қуаныш Гранд Холл» мейрамханасы, «Суан» залы.';
+ const address='Жаркент қаласы, Жібек Жолы көшесі, 137А. «Қуаныш Гранд Холл» мейрамханасы, «Суан» залы. https://2gis.kz/almaty/firm/70000001076317228';
  try{await navigator.clipboard.writeText(address);$('copy-status').textContent='Көшірілді';}
  catch{$('copy-status').textContent='Автоматты көшіру қолжетімсіз.';}
 });
