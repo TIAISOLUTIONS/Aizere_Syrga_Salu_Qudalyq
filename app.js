@@ -35,7 +35,7 @@ radios.forEach(input=>input.addEventListener('change',()=>{
 form.querySelectorAll('input').forEach(input=>{
  input.addEventListener('input',()=>input.setCustomValidity(''));input.addEventListener('change',()=>input.setCustomValidity(''));
  input.addEventListener('invalid',()=>{if(input.validity.valueMissing)input.setCustomValidity(input.type==='radio'?'Қатысу нұсқасын таңдаңыз.':'Аты-жөніңізді жазыңыз.');else if(input.validity.tooShort)input.setCustomValidity('Кемінде 2 таңба енгізіңіз.');});
-});
+}); 
 const cfg=window.INVITATION_CONFIG||{};let apiUrl='';
 try{const u=new URL(cfg.supabaseUrl);if(u.protocol==='https:'&&u.hostname.endsWith('.supabase.co'))apiUrl=u.origin;}catch{}
 const key=(cfg.supabasePublishableKey||'').trim();let forbidden=key.startsWith('sb_secret_');
