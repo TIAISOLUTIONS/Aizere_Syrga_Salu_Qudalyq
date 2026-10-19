@@ -70,3 +70,9 @@ address{font-size:20px}
 .swipe-hint{font-size:16px;letter-spacing:.02em}
 @media(min-width:701px){.invitation p{font-size:22px}}
 @media(max-width:359px){.invitation p{font-size:19px}.choice{font-size:17px}}
+
+/* ===== Hero title: larger, white ===== */
+.hero h1{font-size:clamp(96px,27vw,150px);background:none;-webkit-background-clip:border-box;background-clip:border-box;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 22px #8c4f588c,0 1px 3px #8c4f5859;letter-spacing:-2px}
+.hero-shade{background:radial-gradient(ellipse 80% 38% at 50% 42%,#b0627359,transparent 75%),linear-gradient(180deg,#fbe8ea30 0%,#fcecec66 45%,#fbf0ee99 78%,var(--paper) 100%)}
+@media(min-width:701px){.hero h1{font-size:160px}}
+@media(max-width:359px){.hero h1{font-size:90px}}
