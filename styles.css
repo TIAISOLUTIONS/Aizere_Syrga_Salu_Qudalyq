@@ -89,3 +89,18 @@ address strong{font-size:24px}address>span{font-family:var(--script);font-style:
 .hosts-section>h2{font-size:32px}.hosts-names{font-family:var(--script);font-style:normal;font-weight:400;font-size:clamp(40px,12vw,62px);-webkit-text-stroke:.5px #403935;letter-spacing:0}
 .success-panel h3{font-size:40px}
 @media(max-width:359px){.hero h1{font-size:84px}.countdown span{font-size:38px}}
+
+/* ===== Крупные надписи — это SVG-картинки (контуры шрифта), цвет задаётся через color ===== */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.tx{display:block;margin:0 auto;max-width:100%;height:auto;fill:currentColor;overflow:visible}
+h1,h2,.event-time,.calendar-month,.hero-event p,address>span{font-size:0;line-height:0;-webkit-text-stroke:0}
+.hero h1,.hero-event p:last-of-type{-webkit-text-stroke:0}
+.tx-name{width:min(100%,440px)!important;color:#3f3834;margin-bottom:16px}
+.tx-l1{color:#574e49}.tx-l2{color:#403935;margin-top:4px}
+.tx-h2{color:#403935}.tx-h2,.tx-time,.tx-month,.tx-hall{margin-left:auto;margin-right:auto}
+.section>h2{margin-bottom:22px}.tx-time{color:#8a817b;margin-top:4px}.tx-month{color:#574e49;margin:10px auto 14px}
+.tx-hall{color:#8a817b;margin-top:8px}
+.hosts-names{display:flex;justify-content:center;align-items:center;gap:14px;font-size:0;line-height:0;flex-wrap:nowrap}
+.tx-host{color:#403935;margin:0;flex:0 1 auto;min-width:0}.tx-dia{width:16px!important;flex:none;fill:#a2968a;margin:0}
+.calendar-month{padding:8px 0 14px}
+@media(max-width:700px){.tx-l1{width:min(100%,230px)!important}.tx-l2{width:min(100%,290px)!important}}
