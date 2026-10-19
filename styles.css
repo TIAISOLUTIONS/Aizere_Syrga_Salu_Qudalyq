@@ -53,3 +53,20 @@ address strong{font-size:27px}address>span{font-size:29px}
 @media(max-width:359px){h2,.invitation h2,.section>h2{font-size:36px}.date-section>h2{font-size:38px}.countdown span{font-size:46px}.hero h1{font-size:84px}}
 @media(prefers-reduced-motion:reduce){.petals{display:none}}
 @media print{.petals{display:none}}
+
+/* ===== Body text: italic EB Garamond (full Kazakh coverage) ===== */
+:root{--sans:'EB Garamond',InvitationSerif,Georgia,serif}
+body{font-size:19px;line-height:1.7;font-style:italic;font-weight:400;letter-spacing:0}
+.invitation p{font-size:21px;line-height:1.75}.invitation strong{font-weight:600}
+address{font-size:20px}
+.field label,legend{font-size:19px;font-weight:500}
+.field input{font-size:19px}.field input::placeholder{font-size:17px}
+.choice{font-size:18px}
+.submit-button{font-size:21px;letter-spacing:.02em}
+.calendar th{font-style:italic;font-size:16px;font-weight:500}
+.countdown small{font-size:16px}
+.copy-address{font-size:18px}.copy-status,.form-status{font-size:16px}
+.config-notice,.noscript-notice{font-size:17px}.success-panel p{font-size:19px}
+.swipe-hint{font-size:16px;letter-spacing:.02em}
+@media(min-width:701px){.invitation p{font-size:22px}}
+@media(max-width:359px){.invitation p{font-size:19px}.choice{font-size:17px}}
