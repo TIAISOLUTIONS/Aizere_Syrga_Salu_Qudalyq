@@ -3,49 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#fcf8f2">
+<meta name="theme-color" content="#fcf3f5">
 <meta name="description" content="Айзеренің сырға салу және құдалық тойына шақыру. 22 қараша 2026 жыл, 12:00. Жаркент, Қуаныш Гранд Холл, Суан залы.">
 <meta name="robots" content="noindex,nofollow">
 <meta property="og:title" content="Айзере · Сырға салу · Құдалық той">
 <meta property="og:description" content="22 қараша 2026 · 12:00 · Жаркент, Қуаныш Гранд Холл, Суан залы">
 <title>Айзере · Сырға салу · Құдалық той</title>
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-<!-- Подключаем красивые Google Шрифты с поддержкой кириллицы (казахского) -->
+<!-- Премиальные шрифты с красивым курсивом, поддерживающие казахский язык -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat:wght@300;400;500&family=Bad+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="./assets/fonts/serif-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="./styles.css?v=3">
 <script defer src="./config.js"></script>
 <script defer src="./app.js?v=2"></script>
 </head>
 <body>
+<div class="floral-overlay" aria-hidden="true"></div>
 <main>
 <section class="hero" aria-labelledby="hero-title">
 <!-- PHOTO: upload your own vertical photo as assets/cover.jpg. Do not change config.js. -->
 <img id="cover-photo" class="cover-photo" alt="" hidden decoding="async" fetchpriority="high">
 <div class="hero-shade" aria-hidden="true"></div>
-<div class="hero-arch" aria-hidden="true">
-    <div class="floral-corner top-left"></div>
-    <div class="floral-corner top-right"></div>
-</div>
-<div class="hero-content">
-    <h1 id="hero-title">Айзере</h1>
-    <div class="hero-event">
-        <p>Сырға салу</p>
-        <p>Құдалық той</p>
-    </div>
-</div>
-<div class="swipe-hint"><span>Жоғары көтеріңіз</span><span class="swipe-arrow" aria-hidden="true">⌃</span></div>
+<div class="hero-arch" aria-hidden="true"></div>
+<div class="hero-content"><h1 id="hero-title">Айзере</h1><div class="hero-event"><p>Сырға салу</p><p>Құдалық той</p></div></div>
+<div class="swipe-hint"><span>Жоғары көтерініз</span><span class="swipe-arrow" aria-hidden="true">⌃</span></div>
 </section>
-
-<div class="floral-divider"></div>
 
 <section class="invitation section" aria-labelledby="invitation-title">
 <h2 id="invitation-title" class="reveal">Құрметті қонақтар!</h2>
-<p class="reveal">Сіздерді қызымыз <strong class="cursive-accent">Айзеренің</strong> сырға салу рәсімі мен құдалық тойына арналған ақ дастарханымыздың қадірлі қонағы болуға шақырамыз.</p>
+<p class="reveal">Сіздерді қызымыз <strong>Айзеренің</strong> сырға салу рәсімі мен құдалық тойына арналған ақ дастарханымыздың қадірлі қонағы болуға шақырамыз.</p>
 </section>
-
-<div class="floral-divider small"></div>
 
 <section class="date-section section" aria-labelledby="date-title">
 <h2 id="date-title" class="reveal">22 қараша 2026</h2><p class="event-time reveal">Сағат 12:00</p>
@@ -58,13 +47,9 @@
 
 <section class="countdown-section section" aria-labelledby="countdown-title"><h2 id="countdown-title" class="reveal">Тойға дейін</h2><div class="countdown reveal" role="timer" aria-label="Тойға дейін қалған уақыт"><div><span id="days">—</span><small>күн</small></div><b aria-hidden="true">:</b><div><span id="hours">—</span><small>сағат</small></div><b aria-hidden="true">:</b><div><span id="minutes">—</span><small>минут</small></div><b aria-hidden="true">:</b><div><span id="seconds">—</span><small>секунд</small></div></div></section>
 
-<div class="floral-divider small"></div>
-
-<section class="venue-section section" aria-labelledby="venue-title"><h2 id="venue-title" class="reveal">Мекенжай</h2><address class="reveal">Жаркент қаласы,<br>Жібек Жолы көшесі, 137А.<strong>«Қуаныш Гранд Холл» мейрамханасы</strong><span class="cursive-accent">«Суан» залы</span></address><div class="map-wrap reveal"><iframe src="https://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A44.167479%2C%22lon%22%3A80.029229%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22almaty%22%7D%2C%22org%22%3A%2270000001076317228%2C70000001076317228%22%7D" title="2GIS: Қуаныш Гранд Холл, Жаркент" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><button type="button" id="copy-address" class="copy-address">Мекенжайды көшіру <span aria-hidden="true">⧉</span></button><p class="copy-status" id="copy-status" role="status"></p></section>
+<section class="venue-section section" aria-labelledby="venue-title"><h2 id="venue-title" class="reveal">Мекенжай</h2><address class="reveal">Жаркент қаласы,<br>Жібек Жолы көшесі, 137А.<strong>«Қуаныш Гранд Холл» мейрамханасы</strong><span>«Суан» залы</span></address><div class="map-wrap reveal"><iframe src="https://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A44.167479%2C%22lon%22%3A80.029229%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22almaty%22%7D%2C%22org%22%3A%2270000001076317228%2C70000001076317228%22%7D" title="2GIS: Қуаныш Гранд Холл, Жаркент" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><button type="button" id="copy-address" class="copy-address">Мекенжайды көшіру <span aria-hidden="true">⧉</span></button><p class="copy-status" id="copy-status" role="status"></p></section>
 
 <section class="rsvp-section section" aria-labelledby="rsvp-title"><h2 id="rsvp-title" class="reveal">Сауалнама</h2><div class="rsvp-card reveal"><div id="form-content"><p id="config-notice" class="config-notice" hidden>Жауап қабылдау әлі қосылмаған.</p><form id="rsvp-form"><div class="field"><label for="guest-name">Аты-жөніңіз</label><input type="text" id="guest-name" name="guest_name" autocomplete="name" placeholder="Атыңыз бен тегіңіз" required minlength="2" maxlength="120"></div><fieldset><legend>Жұбыңызбен келесіз бе?</legend><label class="choice"><input type="radio" name="attendance" value="alone" required><span class="radio-dot" aria-hidden="true"></span><span>Өзім келемін</span></label><label class="choice"><input type="radio" name="attendance" value="couple"><span class="radio-dot" aria-hidden="true"></span><span>Жұбыммен келемін</span></label><label class="choice"><input type="radio" name="attendance" value="declined"><span class="radio-dot" aria-hidden="true"></span><span>Өкінішке орай, келе алмаймын</span></label></fieldset><div class="field" id="companion-field" hidden><label for="companion-name">Жұбыңыздың аты-жөні</label><input type="text" id="companion-name" name="companion_name" placeholder="Аты мен тегі" minlength="2" maxlength="120" disabled></div><div class="honey-field" aria-hidden="true"><label for="website">Бос қалдырыңыз</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div><button type="submit" id="submit-button" class="submit-button"><span id="submit-label">Жіберу</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p></form></div><div id="success-panel" class="success-panel" tabindex="-1" hidden><span class="success-heart" aria-hidden="true">♡</span><h3>Рақмет!</h3><p id="success-text">Жауабыңыз сақталды.</p></div></div></section>
-
-<div class="floral-divider"></div>
 
 <section class="hosts-section section" aria-labelledby="hosts-title"><h2 id="hosts-title" class="reveal">Той иелері</h2><p class="hosts-names reveal">Қайрат <span>—</span> Ұлтай</p></section>
 </main>
