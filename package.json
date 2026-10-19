@@ -1,0 +1,7 @@
+{
+  "name": "aizere-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Айзере — responsive Kazakh invitation, no build step",
+  "scripts": { "start": "npx --yes serve .", "check": "node --check app.js && node --check config.js" }
+}

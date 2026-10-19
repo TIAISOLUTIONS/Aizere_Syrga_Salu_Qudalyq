@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Aizere Invitation//KK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aizere-20261122T070000Z@invitation.local
+DTSTAMP:20261019T000000Z
+DTSTART:20261122T070000Z
+SUMMARY:Айзере — Сырға салу және құдалық той
+LOCATION:Жаркент\, Жібек Жолы көшесі\, 137А\, Қуа
+ ныш Гранд Холл\, Суан залы
+DESCRIPTION:Той иелері: Қайрат — Ұлтай. Бастал
+ уы: 12:00 (UTC+5).\n2GIS: https://2gis.kz/almaty/firm/70000001076317228
+URL:https://2gis.kz/almaty/firm/70000001076317228
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
