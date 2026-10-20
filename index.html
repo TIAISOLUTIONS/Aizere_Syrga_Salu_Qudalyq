@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#fffdf8">
+<meta name="theme-color" content="#ffffff">
 <meta name="description" content="Айзеренің сырға салу және құдалық тойына шақыру. 22 қараша 2026 жыл, 12:00. Жаркент, Қуаныш Гранд Холл, Суан залы.">
 <meta name="robots" content="noindex,nofollow">
 <meta property="og:title" content="Айзере · Сырға салу · Құдалық той">
@@ -11,45 +11,54 @@
 <title>Айзере · Сырға салу · Құдалық той</title>
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="./assets/fonts/aizere-script.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="./assets/fonts/aizere-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="./styles.css?v=5">
+<link rel="preload" href="./assets/fonts/aizere-ptserif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./styles.css?v=6">
 <script defer src="./config.js"></script>
 <script defer src="./app.js?v=2"></script>
 </head>
 <body>
 <main>
 <section class="hero" aria-labelledby="hero-title">
-<!-- PHOTO: upload your own vertical photo as assets/cover.jpg. Do not change config.js. -->
+<!-- ФОТО: положите свою вертикальную фотографию в assets/cover.jpg (она закроет шаблонное assets/hero.jpg) -->
 <img id="cover-photo" class="cover-photo" alt="" hidden decoding="async" fetchpriority="high">
 <div class="hero-shade" aria-hidden="true"></div>
-<div class="hero-arch" aria-hidden="true"></div>
-<div class="hero-flora flora-l" aria-hidden="true"></div><div class="hero-flora flora-r" aria-hidden="true"></div><div class="hero-flora flora-bl" aria-hidden="true"></div><div class="hero-flora flora-br" aria-hidden="true"></div>
-<div class="petals" aria-hidden="true"><i style="--x:8%;--s:1;--d:12s;--t:0s"></i><i style="--x:22%;--s:0.8;--d:15s;--t:3s"></i><i style="--x:37%;--s:1.1;--d:13s;--t:6s"></i><i style="--x:52%;--s:0.9;--d:16s;--t:1s"></i><i style="--x:66%;--s:1;--d:12s;--t:8s"></i><i style="--x:78%;--s:0.8;--d:14s;--t:4s"></i><i style="--x:90%;--s:1.1;--d:17s;--t:9s"></i><i style="--x:45%;--s:0.7;--d:18s;--t:12s"></i></div>
+<i class="lily l-hero" aria-hidden="true"></i>
 <div class="hero-content"><h1 id="hero-title">Айзере</h1><div class="hero-event"><p>Сырға салу</p><p>Құдалық той</p></div></div>
-<div class="swipe-hint"><span>Жоғары көтерініз</span><span class="swipe-arrow" aria-hidden="true">⌃</span></div>
+<div class="swipe-hint"><span class="scroll-pill" aria-hidden="true"></span><span>жоғары көтеріңіз</span></div>
+<div class="petals" aria-hidden="true" hidden></div>
 </section>
 
 <section class="invitation section" aria-labelledby="invitation-title">
-<h2 id="invitation-title" class="reveal">Құрметті қонақтар!</h2>
-<p class="reveal">Сіздерді қызымыз <strong>Айзеренің</strong> сырға салу рәсімі мен құдалық тойына арналған ақ дастарханымыздың қадірлі қонағы болуға шақырамыз.</p>
+<i class="lily l-tl" aria-hidden="true"></i><i class="lily l-br" aria-hidden="true"></i>
+<h2 id="invitation-title" class="caps reveal">Құрметті қонақтар!</h2>
+<p class="reveal lead">Сіздерді</p>
+<p class="reveal script-name">Айзере</p>
+<p class="reveal">қызымыздың сырға салу рәсімі мен құдалық тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз!</p>
 </section>
 
+<section class="moment" aria-label="Той күні"><img src="./assets/photo-shape.webp" alt="" loading="lazy"><p class="moment-date reveal" aria-label="22 қараша 2026"><span>22</span><span>11</span><span>26</span></p></section>
+
 <section class="date-section section" aria-labelledby="date-title">
-<h2 id="date-title" class="reveal">22 қараша 2026</h2><p class="event-time reveal">Сағат 12:00</p>
+<i class="lily l-rose-l" aria-hidden="true"></i>
+<h2 id="date-title" class="script reveal">Той салтанаты:</h2><p class="event-time reveal">22 қараша 2026 жыл<br>сағат 12:00-де</p>
 <div class="calendar-card reveal">
-<p class="calendar-month">Қараша <span>2026</span></p>
-<table class="calendar" aria-label="2026 жылғы қараша. Той күні — 22 қараша, жексенбі."><thead><tr><th scope="col" abbr="Дүйсенбі">Дс</th><th scope="col" abbr="Сейсенбі">Сс</th><th scope="col" abbr="Сәрсенбі">Ср</th><th scope="col" abbr="Бейсенбі">Бс</th><th scope="col" abbr="Жұма">Жм</th><th scope="col" abbr="Сенбі">Сб</th><th scope="col" abbr="Жексенбі">Жс</th></tr></thead>
-<tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr><tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr><tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td class="event-day"><span aria-label="22 қараша, той күні"><svg viewBox="0 0 60 55" aria-hidden="true"><path d="M30 49C23 43 4 30 4 17 4 3 22 0 30 13 38 0 56 3 56 17 56 30 37 43 30 49Z"/></svg><b>22</b></span></td></tr><tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr><tr><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table class="calendar" aria-label="2026 жылғы қараша. Той күні — 22 қараша, жексенбі."><thead><tr><th scope="col" abbr="Дүйсенбі">ДС</th><th scope="col" abbr="Сейсенбі">СС</th><th scope="col" abbr="Сәрсенбі">СР</th><th scope="col" abbr="Бейсенбі">БС</th><th scope="col" abbr="Жұма">ЖМ</th><th scope="col" abbr="Сенбі">СБ</th><th scope="col" abbr="Жексенбі">ЖС</th></tr></thead>
+<tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>01</td></tr><tr><td>02</td><td>03</td><td>04</td><td>05</td><td>06</td><td>07</td><td>08</td></tr><tr><td>09</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr><tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td class="event-day"><span aria-label="22 қараша, той күні"><svg viewBox="0 0 60 55" aria-hidden="true"><path d="M30 49C23 43 4 30 4 17 4 3 22 0 30 13 38 0 56 3 56 17 56 30 37 43 30 49Z"/></svg><b>22</b></span></td></tr><tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr><tr><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 </div>
 </section>
 
-<section class="countdown-section section" aria-labelledby="countdown-title"><h2 id="countdown-title" class="reveal">Тойға дейін</h2><div class="countdown reveal" role="timer" aria-label="Тойға дейін қалған уақыт"><div><span id="days">—</span><small>күн</small></div><b aria-hidden="true">:</b><div><span id="hours">—</span><small>сағат</small></div><b aria-hidden="true">:</b><div><span id="minutes">—</span><small>минут</small></div><b aria-hidden="true">:</b><div><span id="seconds">—</span><small>секунд</small></div></div></section>
+<section class="venue-section section" aria-labelledby="venue-title"><i class="lily l-rose-r" aria-hidden="true"></i>
+<h2 id="venue-title" class="script reveal">Мекенжайымыз:</h2>
+<address class="reveal">Жаркент қаласы,<br>Жібек жолы даңғылы, 137А<strong>«Қуаныш Гранд Холл» мейрамханасы</strong><span>«Суан» залы</span></address>
+<a class="pill-solid reveal" href="https://2gis.kz/almaty/geo/70000001076317228/80.029472,44.167491" target="_blank" rel="noopener">Картаға өту</a>
+<div class="map-wrap reveal"><iframe src="https://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A44.167479%2C%22lon%22%3A80.029229%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22almaty%22%7D%2C%22org%22%3A%2270000001076317228%2C70000001076317228%22%7D" title="2GIS: Қуаныш Гранд Холл, Жаркент" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<button type="button" id="copy-address" class="copy-address">Мекенжайды көшіру <span aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg></span></button><p class="copy-status" id="copy-status" role="status"></p></section>
 
-<section class="venue-section section" aria-labelledby="venue-title"><h2 id="venue-title" class="reveal">Мекенжай</h2><address class="reveal">Жаркент қаласы,<br>Жібек Жолы көшесі, 137А.<strong>«Қуаныш Гранд Холл» мейрамханасы</strong><span>«Суан» залы</span></address><div class="map-wrap reveal"><iframe src="https://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A44.167479%2C%22lon%22%3A80.029229%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22almaty%22%7D%2C%22org%22%3A%2270000001076317228%2C70000001076317228%22%7D" title="2GIS: Қуаныш Гранд Холл, Жаркент" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><button type="button" id="copy-address" class="copy-address">Мекенжайды көшіру <span aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg></span></button><p class="copy-status" id="copy-status" role="status"></p></section>
+<section class="countdown-section" aria-labelledby="countdown-title"><h2 id="countdown-title" class="script reveal">Тойға дейін:</h2><div class="countdown reveal" role="timer" aria-label="Тойға дейін қалған уақыт"><div><span id="days">—</span><small>күн</small></div><b aria-hidden="true">:</b><div><span id="hours">—</span><small>сағат</small></div><b aria-hidden="true">:</b><div><span id="minutes">—</span><small>минут</small></div><b aria-hidden="true">:</b><div><span id="seconds">—</span><small>секунд</small></div></div></section>
 
-<section class="rsvp-section section" aria-labelledby="rsvp-title"><h2 id="rsvp-title" class="reveal">Сауалнама</h2><div class="rsvp-card reveal"><div id="form-content"><p id="config-notice" class="config-notice" hidden>Жауап қабылдау әлі қосылмаған.</p><form id="rsvp-form"><div class="field"><label for="guest-name">Аты-жөніңіз</label><input type="text" id="guest-name" name="guest_name" autocomplete="name" placeholder="Атыңыз бен тегіңіз" required minlength="2" maxlength="120"></div><fieldset><legend>Жұбыңызбен келесіз бе?</legend><label class="choice"><input type="radio" name="attendance" value="alone" required><span class="radio-dot" aria-hidden="true"></span><span>Өзім келемін</span></label><label class="choice"><input type="radio" name="attendance" value="couple"><span class="radio-dot" aria-hidden="true"></span><span>Жұбыммен келемін</span></label><label class="choice"><input type="radio" name="attendance" value="declined"><span class="radio-dot" aria-hidden="true"></span><span>Өкінішке орай, келе алмаймын</span></label></fieldset><div class="field" id="companion-field" hidden><label for="companion-name">Жұбыңыздың аты-жөні</label><input type="text" id="companion-name" name="companion_name" placeholder="Аты мен тегі" minlength="2" maxlength="120" disabled></div><div class="honey-field" aria-hidden="true"><label for="website">Бос қалдырыңыз</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div><button type="submit" id="submit-button" class="submit-button"><span id="submit-label">Жіберу</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p></form></div><div id="success-panel" class="success-panel" tabindex="-1" hidden><span class="success-heart" aria-hidden="true"><svg width="46" height="42" viewBox="0 0 60 55" fill="none" stroke="#b8923a" stroke-width="2"><path d="M30 49C23 43 4 30 4 17 4 3 22 0 30 13 38 0 56 3 56 17 56 30 37 43 30 49Z"/></svg></span><h3>Рақмет!</h3><p id="success-text">Жауабыңыз сақталды.</p></div></div></section>
+<section class="rsvp-section section" aria-labelledby="rsvp-title"><h2 id="rsvp-title" class="script reveal">Сауалнама</h2><p class="rsvp-lead reveal">Тойға қатысуыңызды<br>растауыңызды сұраймыз:</p><div class="rsvp-card reveal"><div id="form-content"><p id="config-notice" class="config-notice" hidden>Жауап қабылдау әлі қосылмаған.</p><form id="rsvp-form"><div class="field"><label for="guest-name">Аты-жөніңіз</label><input type="text" id="guest-name" name="guest_name" autocomplete="name" placeholder="Атыңыз бен тегіңіз" required minlength="2" maxlength="120"></div><fieldset><legend>Жұбыңызбен келесіз бе?</legend><label class="choice"><input type="radio" name="attendance" value="alone" required><span class="radio-dot" aria-hidden="true"></span><span>Өзім келемін</span></label><label class="choice"><input type="radio" name="attendance" value="couple"><span class="radio-dot" aria-hidden="true"></span><span>Жұбыммен келемін</span></label><label class="choice"><input type="radio" name="attendance" value="declined"><span class="radio-dot" aria-hidden="true"></span><span>Өкінішке орай, келе алмаймын</span></label></fieldset><div class="field" id="companion-field" hidden><label for="companion-name">Жұбыңыздың аты-жөні</label><input type="text" id="companion-name" name="companion_name" placeholder="Аты мен тегі" minlength="2" maxlength="120" disabled></div><div class="honey-field" aria-hidden="true"><label for="website">Бос қалдырыңыз</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div><button type="submit" id="submit-button" class="submit-button"><span id="submit-label">Жіберу</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p></form></div><div id="success-panel" class="success-panel" tabindex="-1" hidden><span class="success-heart" aria-hidden="true"><svg width="46" height="42" viewBox="0 0 60 55" fill="none" stroke="#78592a" stroke-width="2"><path d="M30 49C23 43 4 30 4 17 4 3 22 0 30 13 38 0 56 3 56 17 56 30 37 43 30 49Z"/></svg></span><h3>Рақмет!</h3><p id="success-text">Жауабыңыз сақталды.</p></div></div></section>
 
-<section class="hosts-section section" aria-labelledby="hosts-title"><h2 id="hosts-title" class="reveal">Той иелері</h2><p class="hosts-names reveal">Қайрат <span>—</span> Ұлтай</p></section>
+<section class="hosts-section section" aria-labelledby="hosts-title"><i class="lily l-hosts" aria-hidden="true"></i><h2 id="hosts-title" class="caps reveal">Той иелері:</h2><p class="hosts-names reveal">Қайрат <span>—</span> Ұлтай</p><p class="closing caps reveal">Тойымыздың қадірлі қонағы болыңыздар!</p></section>
 </main>
 <noscript><p class="noscript-notice">Сауалнама мен кері санақ үшін JavaScript қосыңыз.</p></noscript>
 </body></html>
